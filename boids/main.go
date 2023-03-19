@@ -11,8 +11,8 @@ import (
 const (
 	screenWidth, screenHeight = 640, 360
 	boidCount                 = 500
-	viewRadius                = 13
-	adjRate                   = 0.015
+	viewRadius                = 20
+	adjRate                   = 0.0055
 )
 
 var (

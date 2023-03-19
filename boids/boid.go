@@ -64,7 +64,7 @@ func (b *Boid) moveOne() {
 func (b *Boid) start() {
 	for {
 		b.moveOne()
-		time.Sleep(5 * time.Millisecond)
+		time.Sleep(15 * time.Millisecond)
 	}
 }
 
